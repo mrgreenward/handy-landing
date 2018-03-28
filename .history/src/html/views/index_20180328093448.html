@@ -1,0 +1,51 @@
+<% var data = {
+  title: "Заголовок | Проект",
+  author: "Harrix"
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+<div class="b-page__section b-page__section--jumb">
+    <div class="section section--jumb">
+        <div class="section__title b-title-jumb">
+          <p class="text text--lg">Зарабатывайте на поездках до 40% больше</p>
+          <p class="text text--md">Приложение для водителей такси, которое помогает повысить заработок до 40%, а также безопасность поездок.</p>
+          <a href="#" class="b-google"><img class="google-play" src="img/first-screen-google-play-btn.svg" alt=""></a>
+        </div>
+        <div class="section__img">
+            <img  class="phone" src="img/first-screen-phone@2x.png" alt="">
+          </div>
+      </div>
+</div>
+<div class="b-page__section">
+    <div class="section section--pluses">
+        <div class="section__pluses-text">
+          <p class="text text--title">Преимущества Handy</p>
+          <p class="text text--md">Рынок такси меняется и теперь чтобы водителю зарабатывать необходимо работать одновременно в нескольких такси-сервисах. Это очень неудобно так как приходится контролировать статус в каждом приложении, но Handy предлагает решение.</p>
+        </div>
+        <div class="section__pluses">
+          
+          <div class="pluses">
+              <div class="b-item">
+                  <img src="img/advantages-safety.svg" alt="">
+                  <p class="text text--large">Безопасность на дороге</p>
+                  <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+                </div>
+              <div class="b-item  b-item--indent-top">
+                <img src="img/advantages-no-fines.svg" alt="">
+                <p class="text text--large">Больше заказов</p>
+                <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+              </div>
+              <div class="b-item">
+                  <img src="img/advantages-easy-to-use.svg" alt="">
+                  <p class="text text--large">Безопасность на дороге</p>
+                  <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+                </div>
+                <div class="b-item  b-item--indent-top">
+                    <img class="b-item-img"src="img/advantages-safety.svg" alt="">
+                    <p class="text text--large">Безопасность на дороге</p>
+                    <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+                  </div>          
+            </div>        
+        </div>
+      </div>
+</div>
+<%= _.template(require('./../includes/footer.html'))(data) %>

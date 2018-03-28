@@ -1,0 +1,8 @@
+import jQuery from 'jquery';
+import popper from 'popper.js';
+import bootstrap from 'bootstrap';
+
+console.log(jQuery)
+jQuery(function() {
+    jQuery('body').css('color', 'blue');
+});

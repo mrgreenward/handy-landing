@@ -1,0 +1,19 @@
+$font-stack: -apple-system, BlinkMacSystemFont,Roboto,'Open Sans','Helvetica Neue',sans-serif;
+@import "~bootstrap/scss/bootstrap";
+
+///var
+:root {
+  --main :  #63666f;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+  color:  var (--main);
+  font-family: $font-stack;
+}

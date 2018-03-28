@@ -1,0 +1,179 @@
+<% var data = {
+  title: "Заголовок | Проект",
+  author: "Harrix"
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+<div class="b-page__section b-page__section--jumb">
+    <div class="section section--jumb">
+        <div class="section__title b-title-jumb">
+          <p class="text text--bold text--lg">Зарабатывайте на поездках до 40% больше</p>
+          <p class="text text--md">Приложение для водителей такси, которое помогает повысить заработок до 40%, а также безопасность поездок.</p>
+          <a href="#" class="b-google"><img class="google-play" src="img/first-screen-google-play-btn.svg" alt=""></a>
+        </div>
+        <div class="section__img">
+            <img  class="phone" src="img/first-screen-phone@2x.png" alt="">
+          </div>
+      </div>
+</div>
+<div class="b-page__section">
+    <div class="section section--pluses">
+        <div class="section__pluses-text">
+          <p class="text text--bold text--title">Преимущества Handy</p>
+          <p class="text text--md">Рынок такси меняется и теперь чтобы водителю зарабатывать необходимо работать одновременно в нескольких такси-сервисах. Это очень неудобно так как приходится контролировать статус в каждом приложении, но Handy предлагает решение.</p>
+        </div>
+        <div class="section__pluses">  
+          <div class="pluses">
+              <div class="b-item">
+                  <img class="b-item-img" src="img/advantages-safety.svg" alt="">
+                  <p class="text text--title-md text--large">Безопасность на дороге</p>
+                  <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+                </div>
+              <div class="b-item  b-item--indent-top">
+                <img class="b-item-img" src="img/advantages-no-fines.svg" alt="">
+                <p class="text text--title-md text--large">Больше заказов</p>
+                <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+              </div>
+              <div class="b-item">
+                  <img class="b-item-img" src="img/advantages-easy-to-use.svg" alt="">
+                  <p class="text text--title-md text--large">Безопасность на дороге</p>
+                  <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+                </div>
+                <div class="b-item  b-item--indent-top">
+                    <img class="b-item-img" src="img/advantages-safety.svg" alt="">
+                    <p class="text text--title-md text--large">Безопасность на дороге</p>
+                    <p class="text">Больше не нужно отвлекаться от дороги и переключать все приложения, чтобы установить статус "Занят".</p>
+                  </div>          
+            </div>        
+        </div>
+      </div>
+</div>
+<div class="b-page__section">
+    <p class="text text--bold text--title text--center">Как это работает</p>
+    <div class="section section--guide">
+      <div class="section__phone">
+          <img  class="phone" src="img/first-screen-phone@2x.png" alt="">
+      </div>
+      <div class="section__tabs">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link text text--bold text--color text--base active" id="home-tab" data-toggle="tab" href="#app" role="tab" aria-controls="home" aria-selected="true">Приложения</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text text--bold text--color text--base" id="profile-tab" data-toggle="tab" href="#job" role="tab" aria-controls="job" aria-selected="false">Работа</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text text--bold text--color text--base" id="contact-tab" data-toggle="tab" href="#relax" role="tab" aria-controls="relax" aria-selected="false">Отдых</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="app" role="tabpanel" aria-labelledby="home-tab">
+                  <p class="text text--bold text--color text--md">1. Режим работы</p>
+                  <p class="text">Включите приложения, которые хотите использовать в работе сейчас. А затем перейдите в режим «Онлайн». </p>
+                  <p class="text">При получение заказа на выполнение Handy автоматически сменит статус на "Занят" во всех таксометрах. Например, вы работаете на Opteum, Gett и Uber одновременно, как только вы получите заказ в одном из этих приложений Handy автоматически переведет остальные в режим "Занят». </p>
+              </div>
+              <div class="tab-pane fade" id="job" role="tabpanel" aria-labelledby="profile-tab">
+                    <p class="text text--bold text--color text--md">2. Режим работы</p>
+                    <p class="text">Включите приложения, которые хотите использовать в работе сейчас. А затем перейдите в режим «Онлайн». </p>
+                    <p class="text">При получение заказа на выполнение Handy автоматически сменит статус на "Занят" во всех таксометрах. Например, вы работаете на Opteum, Gett и Uber одновременно, как только вы получите заказ в одном из этих приложений Handy автоматически переведет остальные в режим "Занят». </p>
+              </div>
+              <div class="tab-pane fade" id="relax" role="tabpanel" aria-labelledby="contact-tab">
+                  <p class="text text--bold text--color text--md">3. Режим работы</p>
+                  <p class="text">Включите приложения, которые хотите использовать в работе сейчас. А затем перейдите в режим «Онлайн». </p>
+                  <p class="text">При получение заказа на выполнение Handy автоматически сменит статус на "Занят" во всех таксометрах. Например, вы работаете на Opteum, Gett и Uber одновременно, как только вы получите заказ в одном из этих приложений Handy автоматически переведет остальные в режим "Занят». </p>
+              </div>
+            </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="b-page__section b-page__section--feedbacks">
+    <div class="section section--feedback">
+        <p class="text text--softest text--bold text--title text--center">Отзывы клиентов</p>
+        <p class="text text--md text--softer text--center">Наши пользователи рассказывают впечатления от работы с Handy</p>
+        <div class="b-slider">
+        <div class="slider-wrap">
+            <div class="slider">
+                <div class="slider__item b-card">
+                    <img src="http://news.rambler.ru/img/2018/02/21005913.242566.873.jpg" alt="" class="b-card__img">
+                    <div class="b-card__item-title">
+                      <span class="text text--color text--bold b-card__item-title-text">Иван Иванов </span>
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                    </div>
+                    <p class="text b-card__item-descr">
+                        «Handy автоматически сменит статус на "Занят" во всех таксометрах при получение заказа на выполнение.
+                    </p>
+                </div>
+                <div class="slider__item b-card">
+                    <img src="http://news.rambler.ru/img/2018/02/21005913.242566.873.jpg" alt="" class="b-card__img">
+                    <div class="b-card__item-title">
+                      <span class="text text--color text--bold b-card__item-title-text">Иван Иванов </span>
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                    </div>
+                    <p class="text b-card__item-descr">
+                        «Handy автоматически сменит статус на "Занят" во всех таксометрах при получение заказа на выполнение.
+                    </p>
+                </div>
+                <div class="slider__item b-card">
+                    <img src="http://news.rambler.ru/img/2018/02/21005913.242566.873.jpg" alt="" class="b-card__img">
+                    <div class="b-card__item-title">
+                      <span class="text text--color text--bold b-card__item-title-text">Иван Иванов </span>
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                    </div>
+                    <p class="text b-card__item-descr">
+                        «Handy автоматически сменит статус на "Занят" во всех таксометрах при получение заказа на выполнение.
+                    </p>
+                </div>
+                <div class="slider__item b-card">
+                    <img src="http://news.rambler.ru/img/2018/02/21005913.242566.873.jpg" alt="" class="b-card__img">
+                    <div class="b-card__item-title">
+                      <span class="text text--color text--bold b-card__item-title-text">Иван Иванов </span>
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                      <img src="img/reviews-star-1.svg" alt="">
+                    </div>
+                    <p class="text b-card__item-descr">
+                        «Handy автоматически сменит статус на "Занят" во всех таксометрах при получение заказа на выполнение.
+                    </p>
+                </div>
+              </div>
+        </div>
+        <div class="slider__dotes">
+            <div>
+                <input type="radio" id="slider_1"
+                 name="contact" value="email">
+                <label for="slider_1"></label>
+            
+                <input type="radio" id="slider_2"
+                 name="contact" value="phone">
+                <label for="slider_2"></label>
+            
+                <input type="radio" id="slider_3"
+                 name="contact" value="mail">
+                <label for="slider_3"></label>
+              </div>
+              <div>
+  
+            
+                </div>
+          </div>
+    </div>
+</div>
+<%= _.template(require('./../includes/footer.html'))(data) %>
