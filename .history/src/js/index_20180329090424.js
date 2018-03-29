@@ -4,6 +4,7 @@ import bootstrap from 'bootstrap';
 import 'owl.carousel';
 
 $('.b-price').hover(function(){
+    console.log('123213')
     $('.b-price').removeClass('b-price--hovered');
     $(this).addClass('b-price--hovered');
 })

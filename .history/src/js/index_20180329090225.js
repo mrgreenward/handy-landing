@@ -3,7 +3,7 @@ import popper from 'popper.js';
 import bootstrap from 'bootstrap';
 import 'owl.carousel';
 
-$('.b-price').hover(function(){
+$('.b-price').on('click', function(){
     $('.b-price').removeClass('b-price--hovered');
     $(this).addClass('b-price--hovered');
 })

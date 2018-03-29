@@ -32,7 +32,6 @@ body {
       background: url('../img/first-screen-wave-pattern-left.svg') no-repeat;
       background-size: 316px;
     }
-
     &--jumb{
       padding: 52px 58px;
       background: url(../img/first-screen-wave-pattern-right.svg) 100% 74% no-repeat;
@@ -53,7 +52,7 @@ body {
       background-image: linear-gradient(to bottom, #ffffff, #f9faff);
     }
     &--form{
-      background: url(../img/taxis-wave-patten.svg)100% -200px no-repeat #f9faff;
+      background: url(../img/taxis-wave-patten.svg)100% -200px no-repeat;
       background-size: 100%;
     }
   }
@@ -419,10 +418,8 @@ body {
   margin-top: 45px;
   display: flex;
   flex-direction: column;
-  width: 100%;
   @media screen and (min-width:768px) {
    flex-direction: row;
-   width: auto;
    }
   &__tel{
     color: #999999;
@@ -431,9 +428,7 @@ body {
     padding-left: 15px;
     border-radius: 6px;
     outline:none;
-    margin-bottom: 10px;
     @media screen and (min-width:768px) {
-      margin-bottom: 0;
       border-top-right-radius: 0;
     border-bottom-right-radius:0;
      }
@@ -441,6 +436,7 @@ body {
   &__btn{
     height: 40px;
     margin-left: -3px;
+  
     @media screen and (min-width:768px) {
       border-top-left-radius: 0;
       border-bottom-left-radius:0;

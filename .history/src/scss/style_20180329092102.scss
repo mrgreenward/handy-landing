@@ -32,7 +32,6 @@ body {
       background: url('../img/first-screen-wave-pattern-left.svg') no-repeat;
       background-size: 316px;
     }
-
     &--jumb{
       padding: 52px 58px;
       background: url(../img/first-screen-wave-pattern-right.svg) 100% 74% no-repeat;
@@ -48,13 +47,6 @@ body {
     }
     &--clients{
       padding: 102px 58px;
-    }
-    &--price{
-      background-image: linear-gradient(to bottom, #ffffff, #f9faff);
-    }
-    &--form{
-      background: url(../img/taxis-wave-patten.svg)100% -200px no-repeat #f9faff;
-      background-size: 100%;
     }
   }
 }
@@ -149,13 +141,10 @@ body {
   color: #ffffff;
   padding: 8px 24px;
   border-radius: 6px;
-  border:none;
-  outline: none;
-  cursor:pointer;
   &:hover{
     color: #ffffff;
     text-decoration: none;
-    background-image: linear-gradient(258deg, #869efe, #6b81e2);
+
   }
 }
  
@@ -368,13 +357,12 @@ body {
 }
 ///////////////////prise
 .b-price{
-  text-decoration: none !important;
-  display:flex; 
-  width: 270px;
-  padding: 32px;
+  display:flex;
   flex-direction: column;
   align-items: center;
   text-decoration: none;
+  width: 270px;
+  padding: 32px;
   text-align: center;
   cursor:pointer;
   &--hovered{  
@@ -401,49 +389,5 @@ body {
   margin: 55px auto 0 auto;
   & .google-play{
     width: 135px;
-  }
-}
-///////////////form
-.form{
-  border-radius: 20px;
-  background: #ffffff;
-  box-shadow: 3px 3px 28px -2px rgba(179,177,179,1);
-  padding: 63px;
-  max-width:714px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.field-group{
-  margin-top: 45px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  @media screen and (min-width:768px) {
-   flex-direction: row;
-   width: auto;
-   }
-  &__tel{
-    color: #999999;
-    border: solid 1px #cccccc;
-    height: 40px;
-    padding-left: 15px;
-    border-radius: 6px;
-    outline:none;
-    margin-bottom: 10px;
-    @media screen and (min-width:768px) {
-      margin-bottom: 0;
-      border-top-right-radius: 0;
-    border-bottom-right-radius:0;
-     }
-  }
-  &__btn{
-    height: 40px;
-    margin-left: -3px;
-    @media screen and (min-width:768px) {
-      border-top-left-radius: 0;
-      border-bottom-left-radius:0;
-     }
   }
 }
