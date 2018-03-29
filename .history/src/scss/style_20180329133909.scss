@@ -39,25 +39,16 @@ body {
       background: url(../img/first-screen-wave-pattern-right.svg) 100% 74% no-repeat;
       background-size: 658px;
     }
-    &--guide{
-      padding: 80px 58px;
-      @media screen and (min-width:980px) {
-        padding: 80px 58px 52px 58px;
-      }
-    }
     &--feedbacks{
       padding: 52px 28px;
       @media screen and (min-width:980px) {
-        padding: 223px 28px 108px 28px;
+        padding: 152px 28px;
         margin-top: -158px;
       }
       background-image: linear-gradient(to bottom, #8ba2fe, #657efa);
     }
     &--clients{
       padding: 52px 28px;
-      @media screen and (min-width:980px) {
-        padding:95px 58px;
-      }
     }
     &--price{
       background-image: linear-gradient(to bottom, #ffffff, #f9faff);
@@ -440,7 +431,6 @@ body {
 }
 .b-google--price {
   margin: 55px auto 0 auto;
-  width: 135px;
   & .google-play{
     width: 135px;
   }
