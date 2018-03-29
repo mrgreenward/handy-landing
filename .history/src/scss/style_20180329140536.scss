@@ -151,9 +151,9 @@ body {
   list-style-type: none;
   display: flex;
  flex-wrap: wrap;
- justify-content: center;
- @media screen and (min-width:480px) {
-  justify-content: flex-end;
+ justify-content: flex-end;
+ @media screen and (min-width:980px) {
+  justify-content: center;
 }
  &--footer{
    flex-direction: column;
